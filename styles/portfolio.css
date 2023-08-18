@@ -5,7 +5,14 @@
 .text-primary{
     color :#FD6E0A;
 }
-
+.header{
+   
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+   
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -34,12 +41,12 @@ nav li{
     padding: 0px 15px;
     border-radius: 5px;
     background: #FD6E0A;
-     
+  
     
 }
 .banner{
     margin:80px;
-    margin-top: 10px;
+   
     display: flex;
     align-items: center;
 
@@ -59,4 +66,47 @@ nav li{
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+
+}
+main{
+    max-width: 1140px,
+    max-height 550px;
+    margin : 0 auto;
+}
+
+.about{
+     text-align: center;
+      margin-top: 130px;
+      margin-left: 230px;
+      margin-right: 230px;
+       background-color:#FFF8F3;
+       border-radius: 10px;
+       padding: 130px 150px;
+}
+.section-title{
+     
+     margin-bottom: 30px;
+     font-size: 35px;
+     font-weight: 700;
+}
+.section-description{
+      color: #757575;
+      text-align: center;
+      font-size: 20px;
+     
+      margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
