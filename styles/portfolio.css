@@ -87,25 +87,29 @@ section{
 }
 .section-title{
      
-     margin-bottom: 50px;
+     margin-bottom: 30px;
      font-size: 35px;
      font-weight: 700;
 }
+
+
 .section-description{
+    
       color: #757575;
       text-align: center;
       font-size: 20px;
      
-      margin-bottom: 30px;
+      margin-bottom: 10px;
 }
 .about-info-container{
     display: flex;
     justify-content: space-around;
-    margin: 10px;
+    margin: 30px;
 }
 .about .info-title{
     font-size: 20px;
     color: #757575;
+    margin-top: 10px;
 }
 .info-description{
     font-weight: 700;
@@ -143,30 +147,72 @@ section{
     color: #757575;
 }
 .resume{
+    display: flex;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 60px;
+    margin-bottom 30px;;
+}
+.resume{
    
     margin-left: 600px;
     margin-right: 600px;
-}
-.resume.title{
-    color: var(--dark-02, #474747);
     
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
-.resume.subtitle{
-    color: var(--dark-03, #757575);
-    
+.resume .title{
+    margin-top: 30px;
+    display: flex;
+    color: #474747;
+    font-size: 15px;
+    font-weight: 700;   
+}
+.resume .sub-title{
+    color: #757575;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-weight: 600;    
 }
-.resume.description{
-    color: var(--dark-03, #757575);
+.resume .description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.resume-button-primary{
+    margin-top: 50px ;
+    text-align: center ;
+}
 
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+/* contract styles */
+.contact{
+    display: flex;
+    gap: 150px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+   
+}
+.contact .section-title{
+    text-align: left;
+    
+}
+.contact input[type="text"], input[type="email"], textarea{
+    
+    margin-bottom: 24px;
+    display: block;
+    border: 0;
+    width: auto;
+    padding-left: 18px 30px;
+    
+    
+
+}
+input{
+    height: 20px;
+}
+.contact a{
+    text-decoration: none;
+
 }
